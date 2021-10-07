@@ -1,14 +1,4 @@
 
-농심 NDS
-10.05
-
-DB그룹
-10.07
-https://dbgroup.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=68886
-
-bgf리테일 10.7일까지
-개발운영 분야
-
 엔씨소프트 10.8일까지
 
 넷마블 10.11일
