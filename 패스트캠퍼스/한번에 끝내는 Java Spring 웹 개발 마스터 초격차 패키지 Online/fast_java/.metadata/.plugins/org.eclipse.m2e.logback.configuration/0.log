@@ -1,1 +1,14 @@
 2021-11-04 14:59:00,072 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-04 22:40:32,247 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-04 23:17:25,252 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @2228845ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-11-04 23:17:25,429 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.35.v20201120; built: 2020-11-27T20:36:51.615Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.2+7-27
+2021-11-04 23:17:25,445 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-11-04 23:17:25,446 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-11-04 23:17:25,447 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-11-04 23:17:25,471 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7c8633b3{/help,null,AVAILABLE}
+2021-11-04 23:17:25,488 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5a2bb323{HTTP/1.1, (http/1.1)}{127.0.0.1:54512}
+2021-11-04 23:17:25,488 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @2229083ms
+2021-11-04 23:17:25,488 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2021-11-05 05:27:23,190 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5a2bb323{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-11-05 05:27:23,192 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-11-05 05:27:23,202 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7c8633b3{/help,null,STOPPED}

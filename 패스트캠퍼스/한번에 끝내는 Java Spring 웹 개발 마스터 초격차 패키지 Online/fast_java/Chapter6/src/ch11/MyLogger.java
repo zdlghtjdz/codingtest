@@ -8,9 +8,17 @@ import java.util.logging.SimpleFormatter;
 
 public class MyLogger {
 
+	
+	//getlogger method
+	//Find or create a logger for a named subsystem. 
+	//If a logger hasalready been created with the given name it is returned.
+	//Otherwisea new logger is created.
+	
 	Logger logger = Logger.getLogger("mylogger");
 	private static MyLogger instance = new MyLogger();
+	 
 	
+	// 파일이름 지정
 	public static final String errorLog = "log.txt";
 	public static final String warningLog = "warning.txt";
 	public static final String fineLog = "fine.txt";

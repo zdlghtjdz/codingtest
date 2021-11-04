@@ -1,0 +1,6 @@
+#Thu Nov 04 23:17:17 KST 2021
+expression=logger
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
+__DEFAULT__=false
