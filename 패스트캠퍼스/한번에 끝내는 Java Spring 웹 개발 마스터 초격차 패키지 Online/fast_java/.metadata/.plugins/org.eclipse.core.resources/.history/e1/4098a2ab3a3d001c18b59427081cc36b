@@ -1,0 +1,35 @@
+package ch11;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+
+public class MyLogger {
+
+	Logger logger = Logger.getLogger("mylogger");
+	private static MyLogger instance = new MyLogger();
+	
+	public static final String errorLog = "log.txt";
+	public static final String warningLog = "warning.txt";
+	public static final String fineLog = "fine.txt";
+	
+	private FileHandler logFile = null;
+	private FileHandler warningFile = null;
+	private FileHandler fineFile = null;
+	
+	private MyLogger() {
+		
+		try {
+			logFile = new FileHandler(errorLog, true);
+			warningFile = new FileHandler(warningLog, true);
+			fineFile = new FileHandler(fineLog, true);
+			
+		} catch (SecurityException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

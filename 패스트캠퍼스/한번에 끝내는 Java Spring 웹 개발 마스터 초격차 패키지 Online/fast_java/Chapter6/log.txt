@@ -1,0 +1,18 @@
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+FINEST: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+FINER: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+FINE: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+CONFIG: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+INFO: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+WARNING: test
+11월 04, 2021 3:47:13 오후 ch11.MyLogger log
+SEVERE: test
+11월 04, 2021 3:53:20 오후 ch11.MyLogger warning
+WARNING: name must not be null
+11월 04, 2021 3:53:20 오후 ch11.MyLogger warning
+WARNING: 이름이 너무 길어요
